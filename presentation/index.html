@@ -28,6 +28,11 @@
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/jquery.countdown.css"> 
 		<script type="text/javascript" src="js/jquery.countdown.js"></script>
+		<style>
+		.focusColor {
+			color:#13daec !important;
+		}
+		</style>
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
@@ -41,7 +46,7 @@
 			<div class="slides">
 				<section data-background="img/overviewphoto.png" data-background-size="500px">
 					<h1>Design Thinking</h1>
-					<h2>Bouvet Workshop 2014</h2>
+					<h2 class="focusColor">Bouvet Workshop 2014</h2>
 					<p>
 						<small>by <a href="http://twitter.com/dparnas">Dagfinn Parnas(@dparnas)</a></small>
 					</p>
@@ -51,7 +56,7 @@
 					<section>
 						<h2>Design Thinking</h2>
 						<p>
-							Create innovation by combining the right <strong class="fragment highlight-current-blue" data-fragment-index="1">people</strong>, the needed <strong  class="fragment highlight-current-blue" data-fragment-index="1">space</strong> and a support <strong class="fragment highlight-current-blue" data-fragment-index="1">process</strong>
+							Create innovation by combining the right <strong  class="focusColor">people</strong>, the needed <strong class="focusColor">space</strong> and a support <strong  class="focusColor">process</strong>
 						</p>
 						<p>&nbsp;</p>
 						<a href="#" class="image navigate-down">
@@ -91,7 +96,7 @@
 
 				<section>
 					<h2>Teamwork</h2>
-					<h3>Join a team by selecting one out of five challenges</h3>
+					<h3 class="focusColor">Join a team by selecting one out of five challenges</h3>
 					<h3 class="fragment" data-fragment-index="1">Things to remember:</h3>
 					<ul class="fragment" data-fragment-index="1" style="columns: 2;-webkit-columns: 2;-moz-columns: 2;list-style-position: inside;">
 						<li>Active participation by everyone
@@ -114,7 +119,7 @@
 				</section>
 
 				<section>
-					<h1>Task1: Find your team</h1>
+					<h1>Task: Find your team</h1>
 					<span id="countdown1"></span>
 					<a onClick="javascript:$('#countdown1').countdown('resume');">Start</a> | 
 					<a onClick="javascript:$('#countdown1').countdown('pause');">Pause</a>
@@ -129,7 +134,7 @@
 
 				<section>
 					<section>
-						<h1>Task 2: Scoping & 360 degrees research</h1>
+						<h1>Step: Scoping & 360 degrees research</h1>
 						<a href="#" class="image navigate-down">
 							<img  src="img/arrow_down.gif" style="max-height:200px">
 						</a>
@@ -157,23 +162,380 @@
 				</section>	
 
 				<section>
-					<h2>Task2: Scoping and prepare research</h2>
-					<ul>
-						<li>Understand your challenge
-						<li>What do you want to know about the area
-						<li>Prepare interview questions
-					</ul>
-					<span id="countdown2"></span>
-					<a onClick="javascript:$('#countdown2').countdown('resume');">Start</a> | 
-					<a onClick="javascript:$('#countdown2').countdown('pause');">Pause</a>
+					<h2>Task: Scoping and prepare research</h2>
+					<h3 class="focusColor">Goal: Gather as much valuable information  
+					as possible - no evaluation yet!</h3>	
+					<table>
+						<tr><th>Activities</th><th>Results</th></tr>
+						<tr><td>
+							<ol>
+								<li>Understand your challenge
+								<li>What do you want to know about the area
+								<li>Prepare interview
+							</ol>
+						</td>
+						<td>
+							<ol>
+								<li>??
+								<li>Key areas you are seeking information on
+								<li>Interview questions
+							</ol>
+						</td>
+					</table>
+
+					<span id="countdown3"></span>
+					<a onClick="javascript:$('#countdown3').countdown('resume');">Start</a> | 
+					<a onClick="javascript:$('#countdown3').countdown('pause');">Pause</a>
 					<script>
-						$('#countdown2').countdown(
+						$('#countdown3').countdown(
 							{until: +1200, 
 							format: 'MS',
 							layout:'<h1>{mnn}:{snn}</h1>'});
-						$('#countdown2').countdown('pause'); 
+						$('#countdown3').countdown('pause'); 
 					</script>
-				</section>					
+				</section>
+
+				<section>
+					<h2>Task: Research interviews</h2>
+					<h3 class="focusColor">Goal: Gather as much valuable information  
+					from another team</h3>	
+					<table>
+						<tr><th>Activities</th><th>Results</th></tr>
+						<tr><td>
+							<ol>
+								<li>1
+								<li>2
+								<li>3
+							</ol>
+						</td>
+						<td>
+							<ol>
+								<li>??
+								<li>??
+								<li>??
+							</ol>
+						</td>
+					</table>
+
+					<span id="countdown4"></span>
+					<a onClick="javascript:$('#countdown4').countdown('resume');">Start</a> | 
+					<a onClick="javascript:$('#countdown4').countdown('pause');">Pause</a>
+					<script>
+						$('#countdown4').countdown(
+							{until: +1800, 
+							format: 'MS',
+							layout:'<h1>{mnn}:{snn}</h1>'});
+						$('#countdown4').countdown('pause'); 
+					</script>
+				</section>						
+
+				<section>
+					<section>
+						<h1>Step: Story telling</h1>
+						<a href="#" class="image navigate-down">
+							<img  src="img/arrow_down.gif" style="max-height:200px">
+						</a>
+					</section>	
+					<section>
+						<h2>Insights</h2>
+						<img class="stretch" src="img/storytelling1.png">
+					</section>	
+					<section>
+						<h2>Insights</h2>
+						<img class="stretch" src="img/storytelling2.png">
+					</section>
+					<section>
+						<h2>Insights</h2>
+						<img class="stretch" src="img/storytelling3.png">
+					</section>																				
+				</section>	
+
+				<section>
+					<h2>Task: Story telling</h2>
+					<h3 class="focusColor">Goal: Create a common understanding withing the team - Cluster your insights</h3>	
+					<table>
+						<tr><th>Activities</th><th>Results</th></tr>
+						<tr><td>
+							<ol>
+								<li>Share what you heard and saw
+								<li>Note data points on post-it notes
+								<li>Cluster and prioritize your data points
+							</ol>
+						</td>
+						<td>
+							<ol>
+								<li>??
+								<li>??
+								<li>??
+							</ol>
+						</td>
+					</table>
+
+					<span id="countdown5"></span>
+					<a onClick="javascript:$('#countdown5').countdown('resume');">Start</a> | 
+					<a onClick="javascript:$('#countdown5').countdown('pause');">Pause</a>
+					<script>
+						$('#countdown5').countdown(
+							{until: +1800, 
+							format: 'MS',
+							layout:'<h1>{mnn}:{snn}</h1>'});
+						$('#countdown5').countdown('pause'); 
+					</script>
+				</section>		
+
+				<section>
+					<section>
+						<h1>Step: Synthesis</h1>
+						<a href="#" class="image navigate-down">
+							<img  src="img/arrow_down.gif" style="max-height:200px">
+						</a>
+					</section>	
+					<section>
+						<h2>Personas</h2>
+						<img class="stretch" src="img/personas.png">
+					</section>	
+					<section>
+						<h2>Point of view</h2>
+						<img class="stretch" src="img/pointofview.png">
+					</section>																
+				</section>	
+
+				<section>
+					<h2>Task: Synthesis</h2>
+					<h3 class="focusColor">Goal: Create a persona and a point ov view</h3>	
+					<table>
+						<tr><th>Activities</th><th>Results</th></tr>
+						<tr><td>
+							<ol>
+								<li>Identify possible persona
+								<li>Decide on persona to focus on
+								<li>Identify main need and insight of persona
+							</ol>
+						</td>
+						<td>
+							<ol>
+								<li>A persona
+								<li>A point of view
+							</ol>
+						</td>
+					</table>
+
+					<span id="countdown6"></span>
+					<a onClick="javascript:$('#countdown6').countdown('resume');">Start</a> | 
+					<a onClick="javascript:$('#countdown6').countdown('pause');">Pause</a>
+					<script>
+						$('#countdown6').countdown(
+							{until: +1500, 
+							format: 'MS',
+							layout:'<h1>{mnn}:{snn}</h1>'});
+						$('#countdown6').countdown('pause'); 
+					</script>
+				</section>
+
+				<section>
+					<section>
+						<h1>Step: Ideation</h1>
+						<a href="#" class="image navigate-down">
+							<img  src="img/arrow_down.gif" style="max-height:200px">
+						</a>
+					</section>	
+					<section>
+						<h2>Ideation</h2>
+						<img class="stretch" src="img/ideation1.png">
+					</section>
+					<section>
+						<h2>Ideation</h2>
+						<img class="stretch" src="img/ideation2.png">
+					</section>	
+					<section>
+						<h2>Ideation</h2>
+						<img class="stretch" src="img/ideation3.png">
+					</section>	
+					<section>
+						<h2>Ideation</h2>
+						<img class="stretch" src="img/ideation4.png">
+					</section>	
+					<section>
+						<h2>Ideation</h2>
+						<img class="stretch" src="img/ideation5.png">
+					</section>															
+				</section>	
+
+				<section>
+					<h2>Task: Ideation</h2>
+					<h3 class="focusColor">Goal: Generate as many ideas as possible for persona and point of view then cluster and vote</h3>	
+					<table>
+						<tr><th>Activities</th><th>Results</th></tr>
+						<tr><td>
+							<ol>
+								<li>Brainstorm ideas from persona and point of view
+								<li>Cluster ideas
+								<li>Dot-voting on ideas
+							</ol>
+						</td>
+						<td>
+							<ol>
+								<li>Ideas - One post-it for each
+								<li>Group similar ideas
+								<li>Prioritize which ideas you bring to prototype phase
+							</ol>
+						</td>
+					</table>
+
+					<span id="countdown7"></span>
+					<a onClick="javascript:$('#countdown7').countdown('resume');">Start</a> | 
+					<a onClick="javascript:$('#countdown7').countdown('pause');">Pause</a>
+					<script>
+						$('#countdown7').countdown(
+							{until: +1800, 
+							format: 'MS',
+							layout:'<h1>{mnn}:{snn}</h1>'});
+						$('#countdown7').countdown('pause'); 
+					</script>
+				</section>
+
+				<section>
+					<section>
+						<h1>Step: Validation</h1>
+						<a href="#" class="image navigate-down">
+							<img  src="img/arrow_down.gif" style="max-height:200px">
+						</a>
+					</section>	
+					<section>
+						<h2>Validation</h2>
+						<img class="stretch" src="img/validation.png">
+					</section>												
+				</section>	
+
+				<section>
+					<h2>Task: Validation</h2>
+					<h3 class="focusColor">Goal: Get feedback for your ideas and iterate</h3>	
+					<table>
+						<tr><th>Activities</th><th>Results</th></tr>
+						<tr><td>
+							<ol>
+								<li>Present scenario with idea to other team
+								<li>Get feedback
+							</ol>
+						</td>
+						<td>
+							<ol>
+								<li>?
+							</ol>
+						</td>
+					</table>
+
+					<span id="countdown8"></span>
+					<a onClick="javascript:$('#countdown8').countdown('resume');">Start</a> | 
+					<a onClick="javascript:$('#countdown8').countdown('pause');">Pause</a>
+					<script>
+						$('#countdown8').countdown(
+							{until: +600, 
+							format: 'MS',
+							layout:'<h1>{mnn}:{snn}</h1>'});
+						$('#countdown8').countdown('pause'); 
+					</script>
+				</section>
+
+				<section>
+					<section>
+						<h1>Step: Prototype</h1>
+						<a href="#" class="image navigate-down">
+							<img  src="img/arrow_down.gif" style="max-height:200px">
+						</a>
+					</section>	
+					<section>
+						<h2>Prototype</h2>
+						<img class="stretch" src="img/prototype1.png">
+					</section>	
+					<section>
+						<h2>Prototype</h2>
+						<img class="stretch" src="img/prototype2.png">
+					</section>	
+					<section>
+						<h2>Prototype</h2>
+						<img class="stretch" src="img/prototype3.png">
+					</section>	
+					<section>
+						<h2>Prototype</h2>
+						<img class="stretch" src="img/prototype4.png">
+					</section>	
+					<section>
+						<h2>Prototype</h2>
+						<img class="stretch" src="img/prototype5.png">
+					</section>																															
+				</section>	
+
+				<section>
+					<h2>Task: Prototype</h2>
+					<h3 class="focusColor">Goal: Visualize your idea, make it tangible and presentable</h3>	
+					<table>
+						<tr><th>Activities</th><th>Results</th></tr>
+						<tr><td>
+							<ol>
+								<li>Prototype your solution based on the ideas
+								<li>You have 3 minutes to present your prototype
+								<li>Strive for creativity, simplicity and make it fit the persona's need
+							</ol>
+						</td>
+						<td>
+							<ol>
+								<li>Prototype
+								<li>Name of prototype/solution
+								<li>Decide who will present the idea
+							</ol>
+						</td>
+					</table>
+
+					<span id="countdown9"></span>
+					<a onClick="javascript:$('#countdown9').countdown('resume');">Start</a> | 
+					<a onClick="javascript:$('#countdown9').countdown('pause');">Pause</a>
+					<script>
+						$('#countdown9').countdown(
+							{until: +1200, 
+							format: 'MS',
+							layout:'<h1>{mnn}:{snn}</h1>'});
+						$('#countdown9').countdown('pause'); 
+					</script>
+				</section>
+
+				<section>
+					<section>
+						<h1>Step: Presentation</h1>
+						<a href="#" class="image navigate-down">
+							<img  src="img/arrow_down.gif" style="max-height:200px">
+						</a>
+					</section>	
+					<section>
+						<h2>TODO</h2>
+					</section>											
+				</section>	
+
+				<section>
+					<h2>Task: Presentation</h2>
+					<h3 class="focusColor">Goal: Present your idea</h3>	
+
+
+					<span id="countdown10"></span>
+					<a onClick="javascript:$('#countdown10').countdown('resume');">Start</a> | 
+					<a onClick="javascript:$('#countdown10').countdown('pause');">Pause</a> | 
+					<a onClick="(function(){
+						$('#countdown10').countdown('destroy');
+						$('#countdown10').countdown(
+							{until: +180, 
+							format: 'MS',
+							layout:'<h1>{mnn}:{snn}</h1>'});
+						$('#countdown10').countdown('pause');
+						})()">Reset</a>
+					<script>
+						$('#countdown10').countdown(
+							{until: +180, 
+							format: 'MS',
+							layout:'<h1>{mnn}:{snn}</h1>'});
+						$('#countdown10').countdown('pause'); 
+					</script>
+				</section>				
+
 
 
 				<section>
